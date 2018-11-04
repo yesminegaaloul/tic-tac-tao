@@ -26,7 +26,7 @@ local IPaddress(var socket = io.connect("http://127.0.0.1:8080")),in the Socket.
 
 4) After playing the data will be saved only if one of the users is disconnected.
 5) I persisted each player entry in the database with the following attributes:
-6) Game-process: represents every game players played with: 
+6) Game-process: represents every game players played with: <br>
                   x,y : the cell chosen by the player
                   username
                   action : there are three types of actions : 
@@ -34,7 +34,7 @@ local IPaddress(var socket = io.connect("http://127.0.0.1:8080")),in the Socket.
                   2-User playing 
                   3-User won 
 Here is an exemple of one game played(if these two users played more games they will be saved all together):
-{ "_id" : ObjectId("5bde0075e8f8523358e992fb"), "game_process" : 
+{ "_id" : ObjectId("5bde0075e8f8523358e992fb"), "game_process" :  
 [ [ { "action" : "\"enter\"", "username" : "\"ok\"" }, 
 { "action" : "\"enter\"", "username" : "\"lo\"" }, 
 { "x" : "157", "y" : "21", "action" : "\"draw\"", "username" : "\"lo\"" },
