@@ -20,7 +20,7 @@ In the console run the command : "node ./bin/www" . Navigate to http://localhost
 
 1) You need internet connection to play.
 2) If you want to play on two different computers you have to change socket connection with your 
-local IPaddress(var socket = io.connect("http://127.0.0.1:8080")\),in the Socket.html line 19 or you can open it with private navigation.
+local IPaddress(var socket = io.connect(\"http://127.0.0.1:8080\")),in the Socket.html line 19 or you can open it with private navigation.
 
 3) Once you are connected, the server will wait for another connection to open the game,as described in the step two.
 
